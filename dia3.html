@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página educativa con elementos HTML completos</title>
+</head>
+<body>
+    <header>
+        <h1>Página Educativa Interactiva</h1>
+    </header>
+    
+     <nav>
+        <ul>
+            <li><a href="#Inico">Inicio</a></li>
+            <li><a href="#cursos">Curso</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+     </nav>
+
+     <section id="cursos">
+        <h2>Nuestros cursos</h2>
+        <p>Descubre una variedad de cursos que ofrecemos en diferentes áreas del conocimiento.</p>
+     </section>
+
+     <section id="contacto">
+        <h2>Registro al curso</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br>
+
+            <label for="apellido">apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br>
+             <br>
+
+
+             <label> Sexo</label><br>
+            <input type="radio" id="masculino" name="masculino">
+            <label for="masculino">masculino</label><br>
+            <input type="radio" id="femenino" name="femenino">
+            <label for="femenino"> Femenino</label><br>
+            <input type="radio" id="otros" name="otros">
+            <label for="otros"> Otros</label><br>
+            <br>
+
+            <label for="curso">elige un curso:</label><br>
+            <select id="curso" name="curso">
+               <option value="matematicas">matemáticas</option>
+               <option value="ciencias">ciencias</option>
+               <option value="historia">historia</option>
+               <option value="Artes">Artes</option>
+            </select><br>
+            <br>
+
+            <label>Modo de estudio:</label><br>
+            <input type="radio" id="online" name="modo" value="online">
+            <label for="online">Online</label><br>
+            <input type="radio" id="presencial" name="modo" value="presencial">
+            <label for="presencial">Presencial</label><br>
+            <br>
+
+            <button type="submit">Enviar Registro</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Página Educativa Interactiva. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
